@@ -1,0 +1,162 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* General styling */
+body {
+    margin: 0;
+    font-family: 'Arial', serif;
+    font-size: 14px;
+    color: #333;
+    background-color: #f4f7f6;
+}
+
+/* Container styling */
+#outter_div {
+    margin: 20px auto;
+    width: 900px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+/* Table styles */
+table.elements2 td {
+    padding: 5px;
+}
+
+td.number {
+    width: 10px;
+    font-weight: bold;
+}
+
+td.label {
+    width: 150px;
+    font-weight: bold;
+    color: #555;
+}
+
+table.report {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table.report td {
+    border-bottom: solid 1px #ccc;
+    padding: 10px;
+}
+
+table.report th {
+    font-weight: bold;
+    font-size: 15px;
+    text-align: left;
+    background: #eee;
+    padding: 5px;
+    color: #333;
+    border-bottom: solid 2px #ddd;
+}
+/* Align radio buttons horizontally */
+fieldset label.radio-inline {
+    display: inline-block;
+    margin-right: 15px;
+    vertical-align: middle;
+}
+
+fieldset input[type="radio"] {
+    margin-right: 5px;
+    vertical-align: middle;
+}
+/* Fieldset styling */
+fieldset {
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+fieldset label {
+    width: 200px;
+    height: 25px;
+    line-height: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: block;
+    color: #333;
+    text-transform: uppercase;
+}
+
+fieldset input[type="text"],
+fieldset input[type="password"],
+fieldset textarea,
+fieldset select {
+    width: 50%;
+    padding: 5px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fdfdfd;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.3s ease;
+}
+
+fieldset input[type="text"]:focus,
+fieldset input[type="password"]:focus,
+fieldset textarea:focus,
+fieldset select:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.2);
+}
+
+fieldset legend {
+    font-size: 14px;
+    color: #333;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #e9ecef;
+}
+
+/* Textarea styling */
+fieldset textarea {
+    height: 100px;
+}
+
+/* Report filter styles */
+fieldset.report_filter td {
+    border: none;
+}
+
+fieldset.report_filter td.label {
+    width: 60px;
+    font-weight: bold;
+}
+
+/* Summary fieldset */
+fieldset.summary {
+    background: #fffbe6;
+}
+
+/* Error message styling */
+form label.error {
+    color: #c00;
+    font-size: 11px;
+    padding: 2px 0;
+    margin-left: 10px;
+}
+
+form input.error,
+form textarea.error {
+    border-color: #c00;
+}
+
+/* Paragraph styling */
+p {
+    margin-top: 0;
+}
+
+/* Google font import */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Sinhala:wght@400;700&display=swap');

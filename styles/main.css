@@ -1,0 +1,37 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{margin:0;font-family:Arial, Helvetica, sans-serif;font-size:12px;color:#333;}
+
+#outter_div{margin:0 auto;width:900px;}
+
+table.elements2{}
+table.elements2 td{padding:10px;}
+td.number{width:10px;font-weight:bold;}
+td.label{width:150px;font-weight:bold;}
+table.report{}
+table.report td{border-bottom:solid 1px #ccc;}
+table.report th {font-weight:bold;width:200px;font-size:15px;text-align:left;background:#eee;}
+fieldset {-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px;background: #F6F6F6;border: 1px solid #ccc;padding: 10px;margin: 10px 0;}
+fieldset label {width: 200px;height: 25px;line-height: 25px;text-shadow: 0 1px 0 #fff;font-weight: bold;padding-left: 10px;margin: -5px 0 5px 0;text-transform: uppercase;}
+fieldset input[type=text] {-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px;border: 1px solid #BBBBBB;height: 20px;color: #666666;-webkit-box-shadow: inset 0 2px 2px #ccc, 0 1px 0 #fff;-moz-box-shadow: inset 0 2px 2px #ccc, 0 1px 0 #fff;box-shadow: inset 0 2px 2px #ccc, 0 1px 0 #fff;padding-left: 10px;background-position: 10px 6px;margin: 0;display: block;float: left;width: 300px;}
+fieldset input[type=text]:focus {outline: none;border: 1px solid #77BACE;-webkit-box-shadow: inset 0 2px 2px #ccc, 0 0 10px #ADDCE6;-moz-box-shadow: inset 0 2px 2px #ccc, 0 0 10px #ADDCE6;box-shadow: inset 0 2px 2px #ccc, 0 0 10px #ADDCE6;}
+fieldset input[type=password] {-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px;border: 1px solid #BBBBBB;height: 20px;color: #666666;-webkit-box-shadow: inset 0 2px 2px #ccc, 0 1px 0 #fff;-moz-box-shadow: inset 0 2px 2px #ccc, 0 1px 0 #fff;box-shadow: inset 0 2px 2px #ccc, 0 1px 0 #fff;padding-left: 10px;background-position: 10px 6px;margin: 0;display: block;float: left;width: 300px;}
+fieldset input[type=password]:focus {outline: none;border: 1px solid #77BACE;-webkit-box-shadow: inset 0 2px 2px #ccc, 0 0 10px #ADDCE6;-moz-box-shadow: inset 0 2px 2px #ccc, 0 0 10px #ADDCE6;box-shadow: inset 0 2px 2px #ccc, 0 0 10px #ADDCE6;}
+fieldset legend{font-size:13px;color:#222;padding:5px;border-radius:5px;font-weight:bold;}
+fieldset select {margin: 0 2px;border: 1px solid #bbb;height: 20px;color: #666666;}
+fieldset textarea {-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px;border: 1px solid #BBBBBB;color: #666666;-webkit-box-shadow: inset 0 2px 2px #ccc, 0 1px 0 #fff;-moz-box-shadow: inset 0 2px 2px #ccc, 0 1px 0 #fff;box-shadow: inset 0 2px 2px #ccc, 0 1px 0 #fff;padding-left: 10px;background-position: 10px 6px;margin: 0 0.5%;display: block;float: left;width: 96%;}
+fieldset textarea:focus {outline: none;border: 1px solid #77BACE;-webkit-box-shadow: inset 0 2px 2px #ccc, 0 0 10px #ADDCE6;-moz-box-shadow: inset 0 2px 2px #ccc, 0 0 10px #ADDCE6;box-shadow: inset 0 2px 2px #ccc, 0 0 10px #ADDCE6;}
+fieldset.report_filter td{border:none;}
+fieldset.report_filter td.label{width:60px;font-weight:bold;}
+fieldset.summary{background: #FFFFEE;}
+
+form label.error { clear:both; margin-left:10px; color:#c00; font-size:11px; width:250px; padding:2px 0 2px; }
+form input.error, form textarea.error { border-color:#c00; }
+p{margin-top:0; }
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Sinhala:wght@400;700&display=swap');
+
+body {
+    font-family: 'Noto Serif Sinhala', serif;
+}
+
